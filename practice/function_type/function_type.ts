@@ -3,7 +3,7 @@ const listBtn: any = document.querySelector('.human_list');
 const joinBtn: any = document.querySelector('.human_join');
 const customerList: Array<string> = []
 
-waitingBtn.addEventListener('click', function():{
+waitingBtn.addEventListener('click', function(){
     customerList.push(prompt("이름을 입력하세요."));
 })
 
