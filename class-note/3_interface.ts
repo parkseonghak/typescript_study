@@ -30,3 +30,39 @@ sum = function(a: number, b: number):number{
     return a + b;    
 }
 
+//인덱싱
+interface StringArray {
+    // [] : 속성을 따로 부여하지 않고 StringArray를 사용할 때마다 임의로 계속 부여해서 사용
+    [index : number]: string;
+}
+
+var arr : StringArray = ['a', 'b', 'c'];
+// arr[0] = 10
+
+// 딕셔너리 패턴
+interface StringRegexDictionary {
+    [key: string]: RegExp;
+}
+
+var obj: StringRegexDictionary = {
+    // sth: /abc/,
+    cssFile: 'css',
+    jsfile: /\.js$/,
+}
+
+obj['cssFile'] = 'a'
+Object.keys(obj).forEach(function(value) {
+
+})
+
+interface Person {
+    name: string;
+    age: number;
+}
+
+interface Developer {
+    name: string;
+    age: number;
+
+}
+
