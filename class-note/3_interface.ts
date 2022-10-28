@@ -55,14 +55,14 @@ Object.keys(obj).forEach(function(value) {
 
 })
 
-interface Person {
-    name: string;
-    age: number;
-}
+// interface Person {
+//     name: string;
+//     age: number;
+// }
 
-interface Developer {
-    name: string;
-    age: number;
+// interface Developer {
+//     name: string;
+//     age: number;
 
-}
+// }
 

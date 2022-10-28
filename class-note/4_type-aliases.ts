@@ -8,7 +8,7 @@ interface people {
 //     age: number;
 // }
 
-var seho: people = {
-    name: '세호',
-    age: 30,
-}
+// var seho: people = {
+//     name: '세호',
+//     age: 30,
+// }
